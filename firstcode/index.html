@@ -1,0 +1,191 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja - Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">☕ Kopi Senja</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">Tentang</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+</header>
+
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <p class="small-title">SELAMAT DATANG DI</p>
+
+        <h1>Kopi Senja</h1>
+
+        <p>
+            Nikmati secangkir kopi terbaik dengan suasana
+            nyaman untuk menemani harimu.
+        </p>
+
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </div>
+
+</section>
+
+
+<section id="menu" class="menu-section">
+
+    <p class="section-label">MENU KAMI</p>
+
+    <h2>Kopi Favorit</h2>
+
+    <div class="menu-container">
+
+        <div class="menu-card">
+
+            <div class="coffee-image">☕</div>
+
+            <h3>Espresso</h3>
+
+            <p>
+                Kopi espresso dengan rasa kuat dan aroma khas.
+            </p>
+
+            <strong>Rp 18.000</strong>
+
+            <button onclick="addToCart('Espresso', 18000)">
+                Tambah
+            </button>
+
+        </div>
+
+
+        <div class="menu-card">
+
+            <div class="coffee-image">🥤</div>
+
+            <h3>Caffe Latte</h3>
+
+            <p>
+                Espresso lembut dengan susu creamy.
+            </p>
+
+            <strong>Rp 25.000</strong>
+
+            <button onclick="addToCart('Caffe Latte', 25000)">
+                Tambah
+            </button>
+
+        </div>
+
+
+        <div class="menu-card">
+
+            <div class="coffee-image">🧋</div>
+
+            <h3>Caramel Macchiato</h3>
+
+            <p>
+                Kopi susu dengan rasa caramel yang manis.
+            </p>
+
+            <strong>Rp 28.000</strong>
+
+            <button onclick="addToCart('Caramel Macchiato', 28000)">
+                Tambah
+            </button>
+
+        </div>
+
+
+        <div class="menu-card">
+
+            <div class="coffee-image">🍵</div>
+
+            <h3>Matcha Latte</h3>
+
+            <p>
+                Matcha premium dengan susu segar.
+            </p>
+
+            <strong>Rp 27.000</strong>
+
+            <button onclick="addToCart('Matcha Latte', 27000)">
+                Tambah
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+    <div>
+        <p class="section-label">TENTANG KAMI</p>
+
+        <h2>Tempat yang nyaman untuk menikmati kopi.</h2>
+
+        <p>
+            Kopi Senja adalah kafe sederhana yang menyajikan
+            kopi berkualitas dengan suasana hangat dan nyaman.
+            Cocok untuk nongkrong, bekerja, belajar, atau
+            sekadar menikmati waktu sendiri.
+        </p>
+    </div>
+
+</section>
+
+
+<section class="cart">
+
+    <h2>🛒 Pesanan Kamu</h2>
+
+    <div id="cart-list">
+        <p>Belum ada pesanan.</p>
+    </div>
+
+    <div class="total">
+        Total:
+        <strong id="total">Rp 0</strong>
+    </div>
+
+    <button class="order-button" onclick="checkout()">
+        Pesan Sekarang
+    </button>
+
+</section>
+
+
+<footer id="contact">
+
+    <h2>☕ Kopi Senja</h2>
+
+    <p>📍 Jl. Kopi No. 10</p>
+
+    <p>📞 0812-3456-7890</p>
+
+    <p>⏰ Setiap hari 08:00 - 22:00</p>
+
+    <p class="copyright">
+        © 2026 Kopi Senja
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
+
